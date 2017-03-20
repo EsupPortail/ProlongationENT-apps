@@ -1,0 +1,21 @@
+#bandeau_ENT {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+#loginPane, #top-header-logo {
+    display: none;
+}
+#topHeaderDiv {
+    height: 90px !important;
+    border-bottom: none !important;
+}
+
+#borderContainerOne #sideBar, #sideBar_splitter {
+    top: 107px !important;
+}
+
+.actionsBar {
+    border-top: none !important;
+}

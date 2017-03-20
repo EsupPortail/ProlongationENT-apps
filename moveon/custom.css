@@ -1,0 +1,11 @@
+.pageContent {
+    margin-top: 0 !important;
+}
+
+.loginBar {
+    display: none;
+}
+
+.wizardTitleBar, .formHeader {
+    display: none;
+}

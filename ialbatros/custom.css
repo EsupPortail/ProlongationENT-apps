@@ -1,0 +1,34 @@
+a[href="/Profile/Travellers"],
+div.div_ContentLeft a[href^="/Profile/Cards/"],
+div.div_ContentLeft a[href^="/Profile/Company/"],
+div.div_ContentLeft a[href^="/Profile/Profile/"],
+div.div_ContentLeft img[src="/Content/images/ico_company.png"],
+div.div_ContentLeft img[src="/Content/images/ico_card.png"],
+div.div_ContentLeft img[src="/Content/images/ico_user.png"],
+.div_delete_account,
+.div_LogOnBox,
+.div_SignInBox,
+.Header_Extend,
+.div_Header .a_Logo,
+.div_Header .back_button {
+    display: none;
+}
+
+.div_Language {
+    right: 1em;
+    top: 0.4em;
+    width: auto;
+    height: auto;
+}
+
+div.div_ContentLeft div.div-middle-center {
+    min-height: 0px;
+}
+
+form[action^="/Profile/Profile"] {
+    display: none;
+}
+
+html.pE-sticky-footer {
+    height: initial;
+}

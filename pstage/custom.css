@@ -1,0 +1,15 @@
+.fl-theme-app .app-body {
+	min-height: 200px;
+}
+
+.fl-theme-app .app-body .app-content {
+	min-height: 200px;
+}
+
+.fl-theme-app .app-header {
+        display : none;
+}
+
+[id="navigationHeader:logout"] {
+        display : none;
+}

@@ -1,0 +1,29 @@
+#mastheadEntry, #menubarPanelElement {
+    display: none;
+}
+#TlnMainTable, #TlnSecondLevelTable {
+    display: none;
+}
+#fullScreenBtn {
+    display: none;
+}
+
+.OuterFrame .placeHolder {
+    height: 0;
+    width: 0;
+}
+
+.OuterFrame > tbody > tr:first-child,
+.OuterFrame > tbody > tr:last-child {
+    height: 0;
+}
+.OuterFrame .Frame00, .OuterFrame .Frame10, .OuterFrame .Frame20,
+.OuterFrame .Frame01, .OuterFrame .Frame21,
+.OuterFrame .Frame02, .OuterFrame .Frame12, .OuterFrame .Frame22 {
+    display: none;
+}
+
+#frame11TD {
+    display: block;
+    height: 100%;
+}

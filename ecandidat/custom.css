@@ -1,0 +1,43 @@
+.valo-menu-item-ent_logout {
+    display:none !important;
+}
+
+/* move padding into main <div> */
+.valo-ul .valo-menu-responsive[width-range~='0-800px'] { 
+    padding-top: 0 !important; 
+}
+.valo-ul .valo-menu-responsive[width-range~='0-800px'] > div.v-layout { 
+    padding-top: 35px !important; 
+}
+
+.valo-ul .valo-menu-responsive .valo-menu-title .valo-menu-title-wrap {
+    display: none;
+}
+
+/* replace "fixed" position with "absolute" */
+.valo-ul .valo-menu-responsive[width-range~='0-800px'] .valo-menu-title {
+    position: absolute !important;
+    top: -35px !important;
+    display: block;
+    width: 100vw;
+}
+.valo-ul .valo-menu-toggle {
+    position: absolute !important; 
+    top: -32px !important; 
+}
+.valo-ul .valo-menu-responsive[width-range~='0-800px'] .valo-menuitems { 
+    position: absolute !important; 
+    top: 0 !important; 
+}
+.valo-ul .valo-menu-responsive[width-range~="0-800px"] .v-loading-indicator {
+  top: 0px !important;
+}
+
+.valo-ul .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title {
+    display: none !important;
+}
+
+/* do not hide footer */
+.v-generated-body { 
+    overflow: auto !important; 
+}

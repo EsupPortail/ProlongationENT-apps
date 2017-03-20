@@ -1,0 +1,35 @@
+#banner,
+#helpTable,
+.hideIt,
+.hideNextRow + tr[height="4"],
+.hideNext4Rows + tr, .hideNext4Rows + tr + tr, .hideNext4Rows + tr + tr + tr,
+td.gp-navigation > table,
+td.gp-navigation > div.gp-navigation-folders-content {
+    display: none !important;
+}
+
+/* avec un simple "display: none", les contours du bouton restent visible. Alors on affiche le bouton blanc sur blanc, en écrasant les contours du bouton. Beurk */
+input[value='Modifier'] {
+    display: block;
+    position: absolute;
+    background: white;
+    color: white;
+    margin-left: -5px !important;
+    margin-top: -1em !important;
+    width: 10em;
+    cursor: default;
+}
+
+body.hrportal {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+    #darjeeling_iframeContainer > table > tbody > tr > td {
+        display: block;
+        width: 100% !important;
+    }
+    .portal-layout-column-TwoColumns-0 {
+        width: 100% !important;
+    }
+}

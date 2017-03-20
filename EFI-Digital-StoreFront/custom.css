@@ -1,0 +1,21 @@
+body {
+    background: none;
+}
+.header, .left-frame, .footer, .product-items-container {
+    position: static;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: auto;
+    width: auto;
+}
+.header {
+    width: auto;
+}
+
+.logo,
+.myaccount-label .label,
+.myaccount-list > li:last-child {
+    display: none;
+}

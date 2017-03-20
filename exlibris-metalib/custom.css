@@ -1,0 +1,5 @@
+#header { display: none; background-image: none; }
+#header img { display: none; }
+#header, #header div { height: auto; }
+#actionIconsEnv, #actionIconsLogout, #Guest { display: none; }
+#tailwrap { height: 40px; }

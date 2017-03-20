@@ -1,0 +1,9 @@
+body {
+    background-image: none;
+}
+
+body > header[role="banner"] { display: none; }
+
+#content-nav {
+    top: 130px;
+}

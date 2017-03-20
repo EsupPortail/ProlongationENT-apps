@@ -1,0 +1,23 @@
+body { 
+   background: none !important; 
+   max-width: 1024px;
+}
+body > table:first-of-type, 
+body > table:last-of-type img[src="images/bas_home.gif"] { display: none; }
+body > br { display: none; } 
+body > table { border-spacing: 0; }
+body > table td { padding: 0; }
+
+#menuprincipal { 
+   position: static !important;
+   height: auto !important;
+   clear: none !important;
+   margin-bottom: 1.2em !important;
+}
+#menuprincipal #smenuprincipal2, #menuprincipal #smenuprincipal3, #menuprincipal #smenuprincipal4, #menuprincipal #smenuprincipal5 {
+   position: absolute !important;
+}
+#menuprincipal dd#smenuprincipal1 {
+   display: block !important;
+   width: auto !important;
+}

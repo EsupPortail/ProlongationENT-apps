@@ -1,0 +1,15 @@
+.af_commandButton {
+    padding: 0.3em 2em;
+}
+
+span.p_OraHideShowDisclosedSymbol {
+    color: #263F82 !important;
+}
+
+body {
+    margin: 0;
+}
+
+.logoutButton {
+    display: none !important;
+}

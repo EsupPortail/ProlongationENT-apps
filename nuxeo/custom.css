@@ -1,0 +1,20 @@
+.nxHeader{
+ background-color:transparent!important;    
+  }
+
+.nxHeader tbody{
+
+}
+  
+.userServicesBlock, table.nxFooter, .logo{
+  display: none;
+}
+
+.userSearchBlock a{
+  color:black!important;  
+}
+  
+.userSearchBlock{
+    margin: -4em 7em 0 0!important;
+    transition: none !important;  
+}

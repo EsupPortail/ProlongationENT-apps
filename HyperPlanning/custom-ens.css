@@ -1,0 +1,15 @@
+/* cacher les entrees de menu, y compris "Salles" */
+td[id="GInterface.Instances[0].Instances[0]"] {
+    display: none;
+}
+
+/* les emails ne sont pas configurées, donc bouton inutile : */
+div[id="GInterface.Instances[0].Instances[3]_email"] {
+  display: none;
+}
+
+/* cacher le nom de l'utilisateur et le menu avec deconnexion */
+div[id="GInterface.Instances[0].Instances[2]"] {
+  display: none;
+}
+

@@ -1,0 +1,47 @@
+html, body {
+  background: transparent !important;
+}
+#topnav a { 
+  background: transparent !important;
+}
+#hd, #bd, #ft {
+  background: transparent !important; 
+}
+
+#hd {
+  height: 37px !important;
+}
+#mainnav {
+  top: 9px !important;
+  background: none;
+}
+#mainnav a {
+  background: none;
+  color: blue;
+  text-decoration: underline;
+}
+#mainnav a:hover {
+  color: blue;
+}
+/* cacher l'onglet "Mes imprimantes" pour empecher de modifier le nom de l'imprimante : il n'y en a qu'une ! */
+#mainnav .last {
+  display: none;
+}
+#customdoc {
+  width: auto !important;
+  min-width: auto !important;
+}
+
+#topnav li:first-child { 
+  display: none !important;
+}
+
+h2 {
+  text-transform: none !important;
+}
+
+.bodyprintbox {
+  margin-left: none;
+  margin-right: none;
+  width: auto;
+}

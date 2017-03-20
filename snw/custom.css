@@ -1,0 +1,11 @@
+.main_contener, .menu_lateral, .header{
+min-height: inherit !important
+}
+
+.div_recherche, #header .af_separator, .logo_titre, div .OraLink img{
+display : none
+}
+
+tr{
+ height :auto !important;
+}

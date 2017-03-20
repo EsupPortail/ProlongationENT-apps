@@ -1,0 +1,5 @@
+/* cacher le nom de l'utilisateur et le menu avec deconnexion */
+div[id="GInterface.Instances[0].Instances[2]"] {
+  display: none;
+}
+

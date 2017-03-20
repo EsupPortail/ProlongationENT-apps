@@ -1,0 +1,22 @@
+html,body {
+	height: auto !important;
+}
+
+html {
+	overflow-y: auto !important;
+}
+
+#header-bar {
+    position: relative !important;
+}
+#header-left-nav ul li:last-child,
+#my-account ul li:last-child,
+#tabs-perso-infos fieldset:nth-child(2),
+#tabs-perso-infos fieldset:last-child,
+#menu-footer-menu li:first-child,
+#menu-footer-menu li:nth-child(2) {
+    display: none !important;
+}
+
+#footer{ margin-top:0px !important}
+.footer-widget-area {padding:0px !important}

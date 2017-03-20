@@ -1,0 +1,24 @@
+#Banner .headerTop,
+#Banner .headerCommunity,
+#Banner .headerProfileCommunity,
+#submenuLink_Payment,
+#navBarHelpIcon,
+#logout {
+    display: none;
+}
+
+body.homebackground {
+    background: white !important;
+}
+#Banner .header,
+#Banner .header .headerInformation {
+    height: 35px;
+    background: white !important;
+}
+
+#page_profile_personal .personalSalutationLine select,
+#page_profile_personal .personalContactEmail1 input {
+    pointer-events: none;
+    color: #787875;
+    background-color: #C7C9C7;
+}
