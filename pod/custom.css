@@ -1,0 +1,64 @@
+/*
+in pod_project/core/templates/base.html, add
+
+        {% if user.is_authenticated %}
+          <script> window.prolongation_ENT_args = { current: "mediatheque", extra_css: "https://ent.univ-paris1.fr/assets/canal/css/pod.css" }; </script>
+          <script type="text/javascript" src="https://ent.univ-paris1.fr/ProlongationENT/loader.js"></script>
+        {% endif %}
+*/
+
+body > footer {
+    display: none;
+}
+
+header.page-header {
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+header.page-header .row > div:first-child {
+  display: none;
+}
+
+.user-area {
+  width: 0;
+  float: right;
+  padding: 0;
+}
+
+#mainMenu {
+  padding-right: 57px;
+}
+
+header.page-header .dropdown-menu {
+  position: absolute !important;
+  right: 15px;
+  left: auto;
+  top: 30px;
+}
+
+.user-area select.language {
+  display: none;   
+}
+
+.user-area button {
+  position: absolute !important;
+  right: 15px;
+  top: -4px;
+  overflow: hidden;
+  width: 35px;
+  height: 32px;
+  background: #C89108;
+} 
+
+.user-area button::before {
+  content: "\e019";
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+  vertical-align: middle;
+  padding-right: 20px;
+}
