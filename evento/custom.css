@@ -1,0 +1,21 @@
+body, html {
+  height:auto !important;
+}
+
+a[href^="/Shibboleth.sso/Logout"] {
+    display: none;
+}
+
+body > header,
+body > footer {
+    display: none;
+}
+
+body {
+    background-image: none;
+}
+
+#pE-footer-inner-app::before {
+    content: "Service fourni et hebergé par Renater - https://evento.renater.fr";
+    float: left;
+}
