@@ -17,7 +17,12 @@ function searchLeaf_then_fieldset(selector, innerText) {
 function searchSection(innerText) {
     return searchLeaf(".FORMSECTION_TITLE1 td", innerText).closest("h3").closest("table").closest("tr");
 }
+function searchNavigationSection(innerText) {
+    return searchLeaf(".gp-navigation-section-header-label", innerText).closest(".gp-navigation-section");
+}
 
+
+searchNavigationSection("Mes compétences").addClass("hideIt");
 
 searchSection("Personnes à charge").addClass("hideIt");
 searchSection("Affectation").addClass("block-Affectation");
