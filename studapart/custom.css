@@ -1,0 +1,23 @@
+html, body {
+     height: inherit !important;
+}
+.header-logo {
+     display: none !important;
+}
+.header, .mobile-filter-toggler {
+     position: absolute !important;
+     top: 80px !important;
+}
+.header-right a[href$='/logout'], .header-right a[href$='/dashboard/profile'] {
+     display: none 
+}
+.container .search-filter {
+     top: inherit !important;
+     position: absolute !important;
+     height: inherit !important;
+}
+@media screen and (max-width: 64em) {
+     .header {
+         width: auto;
+    }
+}
