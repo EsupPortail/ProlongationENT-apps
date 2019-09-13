@@ -2,9 +2,13 @@ try {
     jQuery("a:contains('" + decodeURIComponent(document.location.search.match(/magicGoto=(.*)/)[1]) + "')")[0].click();
 } catch (e) {}
 
+function fake_innerText(elt) {
+    return elt.textContent.replace(/^\s*(.*?)\s*$/, "$1")
+}
+
 function searchLeaf(selector, innerText) {
     return jQuery(selector).filter(function() {
-        return this.children.length === 0 && this.innerText === innerText;
+        return this.children.length === 0 && fake_innerText(this) === innerText;
     });
 }
 
