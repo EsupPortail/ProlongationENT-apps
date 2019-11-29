@@ -20,6 +20,8 @@ Si vous modifiez directement votre idp, un utilisateur de votre établissement a
 Header edit Location ^https://idp.univ.fr https://idp-proxy.univ.fr
 # demander a CAS de revenir sur idp-proxy plutot que idp (necessite une modification dans CAS) :
 Header edit Location "^(\Qhttps://cas.univ.fr/\E.*)" "$1\&redirect_uri=https://idp-proxy.univ.fr/idp/Authn/RemoteUser"
+# propager le logout idp-proxy au vrai idp :
+Header edit Location "^(/idp/profile/SAML2/Redirect/SLO\?.*)" https://idp.univ.fr/idp/profile/Logout
 
 # modifier l'url dans le form (SAML HTTP POST binding)
 RequestHeader unset  Accept-Encoding
